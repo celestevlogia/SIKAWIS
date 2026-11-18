@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "u-admin",
+      "username": "admin",
+      "password": "$2a$10$7p9Y2QJ6lYf1W2VxgG5U8uWvP8M8zvWk8Hj3xH7c5x9z7G2q1x2mK",
+      "role": "admin",
+      "name": "Administrator SIKAWIS",
+      "nim": "-"
+    },
+    {
+      "id": "u-student",
+      "username": "mahasiswa",
+      "password": "$2a$10$7p9Y2QJ6lYf1W2VxgG5U8uWvP8M8zvWk8Hj3xH7c5x9z7G2q1x2mK",
+      "role": "student",
+      "name": "Celine Gracia",
+      "nim": "2202110001"
+    }
+  ],
+  "students": [
+    {
+      "userId": "u-student",
+      "nim": "2202110001",
+      "name": "Celine Gracia",
+      "program": "Informatika",
+      "semester": 8,
+      "sks": 138,
+      "courses": "Skripsi 2, Metodologi Penelitian, Etika Profesi",
+      "requirements": {
+        "facDay": [
+          null,
+          null,
+          null,
+          null
+        ],
+        "pkkmb": false,
+        "publication": false,
+        "skripsi2": false,
+        "spt": false
+      },
+      "reviews": {
+        "kaprodi": "Belum diajukan",
+        "yudisium": "Menunggu",
+        "bo": "Menunggu",
+        "admin": "Menunggu"
+      },
+      "notes": "",
+      "togaSize": "",
+      "waist": "",
+      "seat": "",
+      "depositStatus": "Belum dibayar",
+      "approved": false,
+      "togaRecommendation": null,
+      "sptData": null
+    }
+  ],
+  "settings": {
+    "requirements": [
+      "1. 4 Sertifikat Faculty Day",
+      "2. Bukti PKKMB",
+      "3. Publikasi / Hak Cipta (opsional)",
+      "4. Bukti Skripsi 2 selesai",
+      "5. Surat Permohonan Tamat (SPT)"
+    ],
+    "graduationYear": "2026"
+  }
+}
